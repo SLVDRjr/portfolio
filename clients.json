@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Monkey D. Luffy",
+    "title": "Captain",
+    "testimonial": "Voluptatibus voluptate perspiciatis quae numquam reiciendis! Nemo id dolore laborum repellat quia omnis numquam, vel porro deleniti consectetur quo reiciendis cumque nisi fuga at dolor hic repudiandae natus corporis quam sit enim eum reprehenderit!",
+    "src": "profiles/profile-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vinsmoke Sanji",
+    "title": "Cook",
+    "testimonial": "Sit amet consectetur adipisicing elit. Velit quas necessitatibus accusamus voluptas officia soluta pariatur delectus quibusdam eos veniam",
+    "src": "profiles/profile-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Nami",
+    "title": "Navigator",
+    "testimonial": "Excepturi ducimus quibusdam. Tempore nesciunt fugiat voluptatem doloremque dolores culpa debitis pariatur ipsum eos facere, eveniet laborum temporibus unde officia cumque laboriosam provident",
+    "src": "profiles/profile-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Usopp",
+    "title": "Sniper",
+    "testimonial": "Veniam ipsa reprehenderit animi dolor quas quidem, itaque vero tempora! Quasi quidem hic quibusdam aliquid eos temporibus dolorum veritatis, voluptate praesentium assumenda",
+    "src": "profiles/profile-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Tony Tony Chopper",
+    "title": "Doctor",
+    "testimonial": "Fugiat quia repellendus debitis vero, eum quibusdam aut minus! Sed quaerat sit optio. Tempora earum sequi, consequuntur saepe magnam iure. Nostrum commodi enim ut a amet rerum expedita",
+    "src": "profiles/profile-5.png"
+  },
+  {
+    "id": 6,
+    "name": "Nico Robin",
+    "title": "Archaeologist",
+    "testimonial": "Deleniti consectetur quo reiciendis cumque nisi fuga at dolor hic repudiandae natus corporis quam sit enim eum reprehenderit! Eius asperiores nisi, repellat aperiam",
+    "src": "profiles/profile-6.png"
+  },
+  {
+    "id": 7,
+    "name": "Franky",
+    "title": "Shipwright",
+    "testimonial": "Quo aspernatur exercitationem ut vel porro officia. Fugit qui quam ipsam sapiente suscipit ipsum, consectetur in, asperiores repellat saepe, ea laboriosam quaerat neque a?",
+    "src": "profiles/profile-7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Brook",
+    "title": "Musician",
+    "testimonial": "Iusto quas delectus? Voluptatibus, nihil ipsam minima rerum maiores ut molestiae possimus eius, repudiandae nulla ullam saepe adipisci hic. Eius quo, sapiente ipsum at",
+    "src": "profiles/profile-8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Jinbei",
+    "title": "Helmsman",
+    "testimonial": "Sapiente aperiam, animi hic corrupti quo, tempore modi aspernatur et ut delectus magnam, eum eius fuga odit neque! Placeat adipisci in nostrum fugit qui!",
+    "src": "profiles/profile-9.jpg"
+  }
+]

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container-overlay" id="container-overlay"></div>
+    <div class="header-container">
+      <header>
+        <a href="index.html" class="logo" id="logo">zOrOrOnOa</a>
+
+        <button id="bars" class="bars" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav id="header-nav" data-visible="false">
+          <button id="close" class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <ul>
+            <li>
+              <a href="index.html"
+                ><i class="fa-solid fa-house icon"></i>Home</a
+              >
+            </li>
+            <li>
+              <a href="work.html"
+                ><i class="fa-solid fa-briefcase icon"></i>Work</a
+              >
+            </li>
+            <li>
+              <a href="blog.html"><i class="fa-solid fa-blog icon"></i>Blog</a>
+            </li>
+          </ul>
+          <button class="hire">Hire Me!</button>
+        </nav>
+      </header>
+    </div>
+
+    <section class="hero">
+      <img src="img/hero-img.jpg" alt="My image or not quite..." />
+      <div class="content">
+        <p class="intro">Hello, I'm Zoro</p>
+        <h1>Expert in Finding Directions</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+          earum sed explicabo quam repellat maxime.
+        </p>
+        <button>SEE MY WORK</button>
+      </div>
+    </section>
+
+    <main>
+      <div class="container">
+        <section class="services">
+          <h2>SERVICES</h2>
+          <div class="content">
+            <div class="item">
+              <i class="fa-solid fa-fill-drip item-icon"></i>
+              <h3 class="item-title">WEB DESIGN</h3>
+              <p class="item-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                blanditiis.
+              </p>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-gem item-icon"></i>
+              <h3 class="item-title">MOBILE APP</h3>
+              <p class="item-desc">
+                Ipsum dolor sit amet consectetur adipisicing elit. Non,
+                cupiditate qui?
+              </p>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-wand-magic-sparkles item-icon"></i>
+              <h3 class="item-title">BRANDING</h3>
+              <p class="item-desc">
+                Dolor sit amet consectetur adipisicing elit. Est dicta nemo
+                explicabo.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="gallery">
+          <div class="projects">
+            <img src="img/img-1.jpg" alt="" />
+            <div class="overlay">
+              <p>Project</p>
+              <h3>1</h3>
+            </div>
+          </div>
+          <div class="projects">
+            <img src="img/img-2.jpg" alt="" />
+            <div class="overlay">
+              <p>Project</p>
+              <h3>2</h3>
+            </div>
+          </div>
+          <div class="projects">
+            <img src="img/img-3.jpg" alt="" />
+            <div class="overlay">
+              <p>Project</p>
+              <h3>3</h3>
+            </div>
+          </div>
+          <div class="projects">
+            <img src="img/img-4.jpg" alt="" />
+            <div class="overlay">
+              <p>Project</p>
+              <h3>4</h3>
+            </div>
+          </div>
+          <div class="projects">
+            <img src="img/img-5.jpg" alt="" />
+            <div class="overlay">
+              <p>Project</p>
+              <h3>5</h3>
+            </div>
+          </div>
+          <div class="projects">
+            <img src="img/img-6.jpg" alt="" />
+            <div class="overlay">
+              <p>Project</p>
+              <h3>6</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="container">
+      <aside>
+        <div>
+          <p class="intro">Make It Awesome!</p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+            hic incidunt aliquid mollitia id nulla aperiam fugiat distinctio
+            neque nostrum!
+          </p>
+        </div>
+        <button>Hire Me Now!</button>
+      </aside>
+    </div>
+
+    <article>
+      <h2>Client Testimonials</h2>
+      <div class="slider-container">
+        <div class="slider">
+          <div id="slide" class="slide"></div>
+        </div>
+        <div class="dots" id="dots"></div>
+        <button class="prev slider-btn" id="prev">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="next slider-btn" id="next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </article>
+
+    <div class="container">
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+          <input type="text" placeholder="Search..." />
+        </nav>
+        <ul class="social-icons">
+          <li>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+        <p>Copyright &copy; 2023. Portfolio By zOrOrOnOa</p>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
